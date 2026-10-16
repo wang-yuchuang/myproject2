@@ -1,0 +1,1075 @@
+14:12:23 **** Incremental Build of configuration Debug for project liquidcooledallinonebmu ****
+make -j12 all 
+Building file: ../Sources/Addition/Calibration/HigVoltCorr.c
+Building file: ../Sources/Addition/Calibration/OutCurrCorr.c
+Executing target #90 ../Sources/Addition/Calibration/HigVoltCorr.c
+Building file: ../Sources/Addition/LoadApp/LoadApp.c
+Executing target #91 ../Sources/Addition/Calibration/OutCurrCorr.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/Calibration/HigVoltCorr.args" -MMD -MP -MF"Sources/Addition/Calibration/HigVoltCorr.d" -MT"Sources/Addition/Calibration/HigVoltCorr.o" -o "Sources/Addition/Calibration/HigVoltCorr.o" "../Sources/Addition/Calibration/HigVoltCorr.c"
+Executing target #92 ../Sources/Addition/LoadApp/LoadApp.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/Calibration/OutCurrCorr.args" -MMD -MP -MF"Sources/Addition/Calibration/OutCurrCorr.d" -MT"Sources/Addition/Calibration/OutCurrCorr.o" -o "Sources/Addition/Calibration/OutCurrCorr.o" "../Sources/Addition/Calibration/OutCurrCorr.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/LoadApp/LoadApp.args" -MMD -MP -MF"Sources/Addition/LoadApp/LoadApp.d" -MT"Sources/Addition/LoadApp/LoadApp.o" -o "Sources/Addition/LoadApp/LoadApp.o" "../Sources/Addition/LoadApp/LoadApp.c"
+Building file: ../Sources/Addition/OperAuth/Authority.c
+Building file: ../Sources/Addition/UserDef/UserTactic.c
+Executing target #93 ../Sources/Addition/OperAuth/Authority.c
+Building file: ../Sources/Addition/UserProto/CatlMsg.c
+Executing target #94 ../Sources/Addition/UserDef/UserTactic.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/OperAuth/Authority.args" -MMD -MP -MF"Sources/Addition/OperAuth/Authority.d" -MT"Sources/Addition/OperAuth/Authority.o" -o "Sources/Addition/OperAuth/Authority.o" "../Sources/Addition/OperAuth/Authority.c"
+Executing target #95 ../Sources/Addition/UserProto/CatlMsg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/UserDef/UserTactic.args" -MMD -MP -MF"Sources/Addition/UserDef/UserTactic.d" -MT"Sources/Addition/UserDef/UserTactic.o" -o "Sources/Addition/UserDef/UserTactic.o" "../Sources/Addition/UserDef/UserTactic.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/UserProto/CatlMsg.args" -MMD -MP -MF"Sources/Addition/UserProto/CatlMsg.d" -MT"Sources/Addition/UserProto/CatlMsg.o" -o "Sources/Addition/UserProto/CatlMsg.o" "../Sources/Addition/UserProto/CatlMsg.c"
+Building file: ../Sources/Addition/UserProto/FrockMsg.c
+Building file: ../Sources/BSPSys/BSPCfg/BSPConfig.c
+Executing target #96 ../Sources/Addition/UserProto/FrockMsg.c
+Building file: ../Sources/BSPSys/BSPUser/BSPISRHook.c
+Executing target #97 ../Sources/BSPSys/BSPCfg/BSPConfig.c
+Executing target #98 ../Sources/BSPSys/BSPUser/BSPISRHook.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Addition/UserProto/FrockMsg.args" -MMD -MP -MF"Sources/Addition/UserProto/FrockMsg.d" -MT"Sources/Addition/UserProto/FrockMsg.o" -o "Sources/Addition/UserProto/FrockMsg.o" "../Sources/Addition/UserProto/FrockMsg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/BSPCfg/BSPConfig.args" -MMD -MP -MF"Sources/BSPSys/BSPCfg/BSPConfig.d" -MT"Sources/BSPSys/BSPCfg/BSPConfig.o" -o "Sources/BSPSys/BSPCfg/BSPConfig.o" "../Sources/BSPSys/BSPCfg/BSPConfig.c"
+arm-none-eabi-gcc "@Sources/BSPSys/BSPUser/BSPISRHook.args" -MMD -MP -MF"Sources/BSPSys/BSPUser/BSPISRHook.d" -MT"Sources/BSPSys/BSPUser/BSPISRHook.o" -o "Sources/BSPSys/BSPUser/BSPISRHook.o" "../Sources/BSPSys/BSPUser/BSPISRHook.c"
+Finished building: ../Sources/Addition/Calibration/HigVoltCorr.c
+Finished building: ../Sources/Addition/Calibration/OutCurrCorr.c
+Building file: ../Sources/BSPSys/BSPUser/BSPUserAPI.c
+ 
+Executing target #99 ../Sources/BSPSys/BSPUser/BSPUserAPI.c
+ 
+Finished building: ../Sources/Addition/OperAuth/Authority.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/BSPSys/BSPUser/BSPUserHook.c
+arm-none-eabi-gcc "@Sources/BSPSys/BSPUser/BSPUserAPI.args" -MMD -MP -MF"Sources/BSPSys/BSPUser/BSPUserAPI.d" -MT"Sources/BSPSys/BSPUser/BSPUserAPI.o" -o "Sources/BSPSys/BSPUser/BSPUserAPI.o" "../Sources/BSPSys/BSPUser/BSPUserAPI.c"
+ 
+Executing target #100 ../Sources/BSPSys/BSPUser/BSPUserHook.c
+Building file: ../Sources/BSPSys/Device/M24512_driver/EepM24512.c
+Building file: ../Sources/BSPSys/Device/RX8010_driver/RX8010.c
+Invoking: Standard S32DS C Compiler
+Executing target #113 ../Sources/BSPSys/Device/RX8010_driver/RX8010.c
+arm-none-eabi-gcc "@Sources/BSPSys/BSPUser/BSPUserHook.args" -MMD -MP -MF"Sources/BSPSys/BSPUser/BSPUserHook.d" -MT"Sources/BSPSys/BSPUser/BSPUserHook.o" -o "Sources/BSPSys/BSPUser/BSPUserHook.o" "../Sources/BSPSys/BSPUser/BSPUserHook.c"
+Finished building: ../Sources/Addition/LoadApp/LoadApp.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Device/RX8010_driver/RX8010.args" -MMD -MP -MF"Sources/BSPSys/Device/RX8010_driver/RX8010.d" -MT"Sources/BSPSys/Device/RX8010_driver/RX8010.o" -o "Sources/BSPSys/Device/RX8010_driver/RX8010.o" "../Sources/BSPSys/Device/RX8010_driver/RX8010.c"
+ 
+Finished building: ../Sources/Addition/UserDef/UserTactic.c
+Finished building: ../Sources/Addition/UserProto/CatlMsg.c
+Finished building: ../Sources/BSPSys/BSPCfg/BSPConfig.c
+Finished building: ../Sources/BSPSys/BSPUser/BSPISRHook.c
+ 
+ 
+ 
+ 
+Executing target #111 ../Sources/BSPSys/Device/M24512_driver/EepM24512.c
+Building file: ../Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.c
+Building file: ../Sources/BSPSys/Driver/BSPCAN.c
+Invoking: Standard S32DS C Compiler
+Executing target #114 ../Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.c
+arm-none-eabi-gcc "@Sources/BSPSys/Device/M24512_driver/EepM24512.args" -MMD -MP -MF"Sources/BSPSys/Device/M24512_driver/EepM24512.d" -MT"Sources/BSPSys/Device/M24512_driver/EepM24512.o" -o "Sources/BSPSys/Device/M24512_driver/EepM24512.o" "../Sources/BSPSys/Device/M24512_driver/EepM24512.c"
+Executing target #116 ../Sources/BSPSys/Driver/BSPCAN.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Driver/BSPCAN.args" -MMD -MP -MF"Sources/BSPSys/Driver/BSPCAN.d" -MT"Sources/BSPSys/Driver/BSPCAN.o" -o "Sources/BSPSys/Driver/BSPCAN.o" "../Sources/BSPSys/Driver/BSPCAN.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.args" -MMD -MP -MF"Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.d" -MT"Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.o" -o "Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.o" "../Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.c"
+Finished building: ../Sources/Addition/UserProto/FrockMsg.c
+ 
+Building file: ../Sources/BSPSys/Driver/BSPEEPROM.c
+Finished building: ../Sources/BSPSys/Device/RX8010_driver/RX8010.c
+Building file: ../Sources/BSPSys/Driver/BSPFTM.c
+Executing target #118 ../Sources/BSPSys/Driver/BSPEEPROM.c
+Executing target #120 ../Sources/BSPSys/Driver/BSPFTM.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Driver/BSPEEPROM.args" -MMD -MP -MF"Sources/BSPSys/Driver/BSPEEPROM.d" -MT"Sources/BSPSys/Driver/BSPEEPROM.o" -o "Sources/BSPSys/Driver/BSPEEPROM.o" "../Sources/BSPSys/Driver/BSPEEPROM.c"
+Finished building: ../Sources/BSPSys/BSPUser/BSPUserAPI.c
+Finished building: ../Sources/BSPSys/BSPUser/BSPUserHook.c
+ 
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Driver/BSPFTM.args" -MMD -MP -MF"Sources/BSPSys/Driver/BSPFTM.d" -MT"Sources/BSPSys/Driver/BSPFTM.o" -o "Sources/BSPSys/Driver/BSPFTM.o" "../Sources/BSPSys/Driver/BSPFTM.c"
+Building file: ../Sources/BSPSys/Driver/BSPSPI.c
+Building file: ../Sources/BSPSys/Driver/BSPUART.c
+Executing target #128 ../Sources/BSPSys/Driver/BSPSPI.c
+Executing target #130 ../Sources/BSPSys/Driver/BSPUART.c
+Finished building: ../Sources/BSPSys/Device/M24512_driver/EepM24512.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/BSPSys/Driver/BSPSPI.args" -MMD -MP -MF"Sources/BSPSys/Driver/BSPSPI.d" -MT"Sources/BSPSys/Driver/BSPSPI.o" -o "Sources/BSPSys/Driver/BSPSPI.o" "../Sources/BSPSys/Driver/BSPSPI.c"
+arm-none-eabi-gcc "@Sources/BSPSys/Driver/BSPUART.args" -MMD -MP -MF"Sources/BSPSys/Driver/BSPUART.d" -MT"Sources/BSPSys/Driver/BSPUART.o" -o "Sources/BSPSys/Driver/BSPUART.o" "../Sources/BSPSys/Driver/BSPUART.c"
+ 
+Building file: ../Sources/Funtion/CanLib/CANHandle.c
+Finished building: ../Sources/BSPSys/Device/SST26VF064_driver/SST26VF064.c
+Building file: ../Sources/Funtion/CanLib/CANInterface.c
+Executing target #133 ../Sources/Funtion/CanLib/CANHandle.c
+ 
+Executing target #134 ../Sources/Funtion/CanLib/CANInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/CanLib/CANHandle.args" -MMD -MP -MF"Sources/Funtion/CanLib/CANHandle.d" -MT"Sources/Funtion/CanLib/CANHandle.o" -o "Sources/Funtion/CanLib/CANHandle.o" "../Sources/Funtion/CanLib/CANHandle.c"
+Building file: ../Sources/Funtion/CanLib/CANTabOper.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/CanLib/CANInterface.args" -MMD -MP -MF"Sources/Funtion/CanLib/CANInterface.d" -MT"Sources/Funtion/CanLib/CANInterface.o" -o "Sources/Funtion/CanLib/CANInterface.o" "../Sources/Funtion/CanLib/CANInterface.c"
+Executing target #135 ../Sources/Funtion/CanLib/CANTabOper.c
+Building file: ../Sources/Funtion/CanLib/CANTxCycle.c
+Executing target #136 ../Sources/Funtion/CanLib/CANTxCycle.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/CanLib/CANUser.c
+arm-none-eabi-gcc "@Sources/Funtion/CanLib/CANTabOper.args" -MMD -MP -MF"Sources/Funtion/CanLib/CANTabOper.d" -MT"Sources/Funtion/CanLib/CANTabOper.o" -o "Sources/Funtion/CanLib/CANTabOper.o" "../Sources/Funtion/CanLib/CANTabOper.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/CanLib/CANTxCycle.args" -MMD -MP -MF"Sources/Funtion/CanLib/CANTxCycle.d" -MT"Sources/Funtion/CanLib/CANTxCycle.o" -o "Sources/Funtion/CanLib/CANTxCycle.o" "../Sources/Funtion/CanLib/CANTxCycle.c"
+Executing target #137 ../Sources/Funtion/CanLib/CANUser.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/BSPSys/Driver/BSPCAN.c
+arm-none-eabi-gcc "@Sources/Funtion/CanLib/CANUser.args" -MMD -MP -MF"Sources/Funtion/CanLib/CANUser.d" -MT"Sources/Funtion/CanLib/CANUser.o" -o "Sources/Funtion/CanLib/CANUser.o" "../Sources/Funtion/CanLib/CANUser.c"
+Building file: ../Sources/Funtion/ChgCan/CHGInterface.c
+ 
+Executing target #140 ../Sources/Funtion/ChgCan/CHGInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/ChgCan/CHGInterface.args" -MMD -MP -MF"Sources/Funtion/ChgCan/CHGInterface.d" -MT"Sources/Funtion/ChgCan/CHGInterface.o" -o "Sources/Funtion/ChgCan/CHGInterface.o" "../Sources/Funtion/ChgCan/CHGInterface.c"
+Finished building: ../Sources/BSPSys/Driver/BSPEEPROM.c
+Building file: ../Sources/Funtion/DataCalc/CalcInterface.c
+Executing target #141 ../Sources/Funtion/DataCalc/CalcInterface.c
+Finished building: ../Sources/BSPSys/Driver/BSPFTM.c
+Finished building: ../Sources/Funtion/CanLib/CANHandle.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/DataCalc/CalcInterface.args" -MMD -MP -MF"Sources/Funtion/DataCalc/CalcInterface.d" -MT"Sources/Funtion/DataCalc/CalcInterface.o" -o "Sources/Funtion/DataCalc/CalcInterface.o" "../Sources/Funtion/DataCalc/CalcInterface.c"
+ 
+Finished building: ../Sources/BSPSys/Driver/BSPSPI.c
+Finished building: ../Sources/Funtion/CanLib/CANInterface.c
+Finished building: ../Sources/BSPSys/Driver/BSPUART.c
+ 
+ 
+ 
+Finished building: ../Sources/Funtion/CanLib/CANUser.c
+Finished building: ../Sources/Funtion/CanLib/CANTabOper.c
+ 
+ 
+ 
+Finished building: ../Sources/Funtion/CanLib/CANTxCycle.c
+Building file: ../Sources/Funtion/DataCalc/CharactCalc.c
+Building file: ../Sources/Funtion/DataCalc/CurrLimCalc.c
+ 
+Executing target #143 ../Sources/Funtion/DataCalc/CharactCalc.c
+Executing target #144 ../Sources/Funtion/DataCalc/CurrLimCalc.c
+Building file: ../Sources/Funtion/DataCalc/CurrLimFall.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/DataCalc/CharactCalc.args" -MMD -MP -MF"Sources/Funtion/DataCalc/CharactCalc.d" -MT"Sources/Funtion/DataCalc/CharactCalc.o" -o "Sources/Funtion/DataCalc/CharactCalc.o" "../Sources/Funtion/DataCalc/CharactCalc.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/DataCalc/CurrLimCalc.args" -MMD -MP -MF"Sources/Funtion/DataCalc/CurrLimCalc.d" -MT"Sources/Funtion/DataCalc/CurrLimCalc.o" -o "Sources/Funtion/DataCalc/CurrLimCalc.o" "../Sources/Funtion/DataCalc/CurrLimCalc.c"
+Executing target #145 ../Sources/Funtion/DataCalc/CurrLimFall.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/DataCalc/CurrLimFall.args" -MMD -MP -MF"Sources/Funtion/DataCalc/CurrLimFall.d" -MT"Sources/Funtion/DataCalc/CurrLimFall.o" -o "Sources/Funtion/DataCalc/CurrLimFall.o" "../Sources/Funtion/DataCalc/CurrLimFall.c"
+Finished building: ../Sources/Funtion/ChgCan/CHGInterface.c
+Building file: ../Sources/Funtion/DataCalc/VoltLimCalc.c
+ 
+Executing target #147 ../Sources/Funtion/DataCalc/VoltLimCalc.c
+Finished building: ../Sources/Funtion/DataCalc/CalcInterface.c
+Building file: ../Sources/Funtion/Diagnosis/DiagCheck.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/DataCalc/VoltLimCalc.args" -MMD -MP -MF"Sources/Funtion/DataCalc/VoltLimCalc.d" -MT"Sources/Funtion/DataCalc/VoltLimCalc.o" -o "Sources/Funtion/DataCalc/VoltLimCalc.o" "../Sources/Funtion/DataCalc/VoltLimCalc.c"
+Executing target #148 ../Sources/Funtion/Diagnosis/DiagCheck.c
+Building file: ../Sources/Funtion/Diagnosis/DiagFilter.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/Diagnosis/DiagInterface.c
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagCheck.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagCheck.d" -MT"Sources/Funtion/Diagnosis/DiagCheck.o" -o "Sources/Funtion/Diagnosis/DiagCheck.o" "../Sources/Funtion/Diagnosis/DiagCheck.c"
+Executing target #149 ../Sources/Funtion/Diagnosis/DiagFilter.c
+Executing target #150 ../Sources/Funtion/Diagnosis/DiagInterface.c
+Finished building: ../Sources/Funtion/DataCalc/CharactCalc.c
+Finished building: ../Sources/Funtion/DataCalc/CurrLimCalc.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagInterface.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagInterface.d" -MT"Sources/Funtion/Diagnosis/DiagInterface.o" -o "Sources/Funtion/Diagnosis/DiagInterface.o" "../Sources/Funtion/Diagnosis/DiagInterface.c"
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagFilter.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagFilter.d" -MT"Sources/Funtion/Diagnosis/DiagFilter.o" -o "Sources/Funtion/Diagnosis/DiagFilter.o" "../Sources/Funtion/Diagnosis/DiagFilter.c"
+Finished building: ../Sources/Funtion/DataCalc/CurrLimFall.c
+Building file: ../Sources/Funtion/Diagnosis/DiagMaker.c
+ 
+Executing target #151 ../Sources/Funtion/Diagnosis/DiagMaker.c
+Finished building: ../Sources/Funtion/DataCalc/VoltLimCalc.c
+Building file: ../Sources/Funtion/Diagnosis/DiagSos.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagMaker.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagMaker.d" -MT"Sources/Funtion/Diagnosis/DiagMaker.o" -o "Sources/Funtion/Diagnosis/DiagMaker.o" "../Sources/Funtion/Diagnosis/DiagMaker.c"
+ 
+Executing target #152 ../Sources/Funtion/Diagnosis/DiagSos.c
+Building file: ../Sources/Funtion/Diagnosis/DiagUser.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/EnergyCalc/CapInfoCalc.c
+Executing target #153 ../Sources/Funtion/Diagnosis/DiagUser.c
+Finished building: ../Sources/Funtion/Diagnosis/DiagInterface.c
+Executing target #154 ../Sources/Funtion/EnergyCalc/CapInfoCalc.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagUser.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagUser.d" -MT"Sources/Funtion/Diagnosis/DiagUser.o" -o "Sources/Funtion/Diagnosis/DiagUser.o" "../Sources/Funtion/Diagnosis/DiagUser.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Diagnosis/DiagSos.args" -MMD -MP -MF"Sources/Funtion/Diagnosis/DiagSos.d" -MT"Sources/Funtion/Diagnosis/DiagSos.o" -o "Sources/Funtion/Diagnosis/DiagSos.o" "../Sources/Funtion/Diagnosis/DiagSos.c"
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/CapInfoCalc.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/CapInfoCalc.d" -MT"Sources/Funtion/EnergyCalc/CapInfoCalc.o" -o "Sources/Funtion/EnergyCalc/CapInfoCalc.o" "../Sources/Funtion/EnergyCalc/CapInfoCalc.c"
+Finished building: ../Sources/Funtion/Diagnosis/DiagFilter.c
+Building file: ../Sources/Funtion/EnergyCalc/CellFadeCalc.c
+Building file: ../Sources/Funtion/EnergyCalc/EnerInfoCalc.c
+ 
+Building file: ../Sources/Funtion/EnergyCalc/EnerInterface.c
+Executing target #157 ../Sources/Funtion/EnergyCalc/EnerInfoCalc.c
+Finished building: ../Sources/Funtion/Diagnosis/DiagCheck.c
+Executing target #158 ../Sources/Funtion/EnergyCalc/EnerInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/EnerInfoCalc.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/EnerInfoCalc.d" -MT"Sources/Funtion/EnergyCalc/EnerInfoCalc.o" -o "Sources/Funtion/EnergyCalc/EnerInfoCalc.o" "../Sources/Funtion/EnergyCalc/EnerInfoCalc.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/EnerInterface.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/EnerInterface.d" -MT"Sources/Funtion/EnergyCalc/EnerInterface.o" -o "Sources/Funtion/EnergyCalc/EnerInterface.o" "../Sources/Funtion/EnergyCalc/EnerInterface.c"
+ 
+Executing target #155 ../Sources/Funtion/EnergyCalc/CellFadeCalc.c
+Building file: ../Sources/Funtion/EnergyCalc/EnerUser.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/CellFadeCalc.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/CellFadeCalc.d" -MT"Sources/Funtion/EnergyCalc/CellFadeCalc.o" -o "Sources/Funtion/EnergyCalc/CellFadeCalc.o" "../Sources/Funtion/EnergyCalc/CellFadeCalc.c"
+Building file: ../Sources/Funtion/EnergyCalc/SocDisplay.c
+Executing target #159 ../Sources/Funtion/EnergyCalc/EnerUser.c
+Executing target #160 ../Sources/Funtion/EnergyCalc/SocDisplay.c
+Building file: ../Sources/Funtion/EnergyCalc/SoeDisplay.c
+Finished building: ../Sources/Funtion/EnergyCalc/CapInfoCalc.c
+Finished building: ../Sources/Funtion/Diagnosis/DiagSos.c
+Executing target #161 ../Sources/Funtion/EnergyCalc/SoeDisplay.c
+ 
+Finished building: ../Sources/Funtion/Diagnosis/DiagMaker.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/SoeDisplay.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/SoeDisplay.d" -MT"Sources/Funtion/EnergyCalc/SoeDisplay.o" -o "Sources/Funtion/EnergyCalc/SoeDisplay.o" "../Sources/Funtion/EnergyCalc/SoeDisplay.c"
+ 
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/SocDisplay.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/SocDisplay.d" -MT"Sources/Funtion/EnergyCalc/SocDisplay.o" -o "Sources/Funtion/EnergyCalc/SocDisplay.o" "../Sources/Funtion/EnergyCalc/SocDisplay.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/EnerUser.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/EnerUser.d" -MT"Sources/Funtion/EnergyCalc/EnerUser.o" -o "Sources/Funtion/EnergyCalc/EnerUser.o" "../Sources/Funtion/EnergyCalc/EnerUser.c"
+Finished building: ../Sources/Funtion/EnergyCalc/EnerInfoCalc.c
+ 
+Finished building: ../Sources/Funtion/EnergyCalc/CellFadeCalc.c
+Building file: ../Sources/Funtion/EnergyCalc/SohDisplay.c
+Finished building: ../Sources/Funtion/Diagnosis/DiagUser.c
+ 
+Executing target #162 ../Sources/Funtion/EnergyCalc/SohDisplay.c
+Finished building: ../Sources/Funtion/EnergyCalc/EnerInterface.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/EnergyCalc/SohDisplay.args" -MMD -MP -MF"Sources/Funtion/EnergyCalc/SohDisplay.d" -MT"Sources/Funtion/EnergyCalc/SohDisplay.o" -o "Sources/Funtion/EnergyCalc/SohDisplay.o" "../Sources/Funtion/EnergyCalc/SohDisplay.c"
+ 
+Building file: ../Sources/Funtion/Measurement/CellAFESamp.c
+Finished building: ../Sources/Funtion/EnergyCalc/SoeDisplay.c
+Building file: ../Sources/Funtion/Measurement/CurrSample.c
+Executing target #163 ../Sources/Funtion/Measurement/CellAFESamp.c
+Finished building: ../Sources/Funtion/EnergyCalc/EnerUser.c
+Executing target #164 ../Sources/Funtion/Measurement/CurrSample.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/CellAFESamp.args" -MMD -MP -MF"Sources/Funtion/Measurement/CellAFESamp.d" -MT"Sources/Funtion/Measurement/CellAFESamp.o" -o "Sources/Funtion/Measurement/CellAFESamp.o" "../Sources/Funtion/Measurement/CellAFESamp.c"
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/CurrSample.args" -MMD -MP -MF"Sources/Funtion/Measurement/CurrSample.d" -MT"Sources/Funtion/Measurement/CurrSample.o" -o "Sources/Funtion/Measurement/CurrSample.o" "../Sources/Funtion/Measurement/CurrSample.c"
+Finished building: ../Sources/Funtion/EnergyCalc/SocDisplay.c
+ 
+Finished building: ../Sources/Funtion/EnergyCalc/SohDisplay.c
+ 
+Building file: ../Sources/Funtion/Measurement/HigAFESamp.c
+ 
+Building file: ../Sources/Funtion/Measurement/InsuCheck.c
+Executing target #165 ../Sources/Funtion/Measurement/HigAFESamp.c
+Building file: ../Sources/Funtion/Measurement/LowADCSamp.c
+Executing target #166 ../Sources/Funtion/Measurement/InsuCheck.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/HigAFESamp.args" -MMD -MP -MF"Sources/Funtion/Measurement/HigAFESamp.d" -MT"Sources/Funtion/Measurement/HigAFESamp.o" -o "Sources/Funtion/Measurement/HigAFESamp.o" "../Sources/Funtion/Measurement/HigAFESamp.c"
+Executing target #167 ../Sources/Funtion/Measurement/LowADCSamp.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/InsuCheck.args" -MMD -MP -MF"Sources/Funtion/Measurement/InsuCheck.d" -MT"Sources/Funtion/Measurement/InsuCheck.o" -o "Sources/Funtion/Measurement/InsuCheck.o" "../Sources/Funtion/Measurement/InsuCheck.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/LowADCSamp.args" -MMD -MP -MF"Sources/Funtion/Measurement/LowADCSamp.d" -MT"Sources/Funtion/Measurement/LowADCSamp.o" -o "Sources/Funtion/Measurement/LowADCSamp.o" "../Sources/Funtion/Measurement/LowADCSamp.c"
+Building file: ../Sources/Funtion/Measurement/PortCheck.c
+Executing target #168 ../Sources/Funtion/Measurement/PortCheck.c
+Building file: ../Sources/Funtion/ModbusLib/MbClient.c
+Building file: ../Sources/Funtion/ModbusLib/MbHandle.c
+Invoking: Standard S32DS C Compiler
+Executing target #169 ../Sources/Funtion/ModbusLib/MbClient.c
+arm-none-eabi-gcc "@Sources/Funtion/Measurement/PortCheck.args" -MMD -MP -MF"Sources/Funtion/Measurement/PortCheck.d" -MT"Sources/Funtion/Measurement/PortCheck.o" -o "Sources/Funtion/Measurement/PortCheck.o" "../Sources/Funtion/Measurement/PortCheck.c"
+Executing target #170 ../Sources/Funtion/ModbusLib/MbHandle.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbClient.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbClient.d" -MT"Sources/Funtion/ModbusLib/MbClient.o" -o "Sources/Funtion/ModbusLib/MbClient.o" "../Sources/Funtion/ModbusLib/MbClient.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbHandle.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbHandle.d" -MT"Sources/Funtion/ModbusLib/MbHandle.o" -o "Sources/Funtion/ModbusLib/MbHandle.o" "../Sources/Funtion/ModbusLib/MbHandle.c"
+Finished building: ../Sources/Funtion/Measurement/CellAFESamp.c
+ 
+Building file: ../Sources/Funtion/ModbusLib/MbInterface.c
+Building file: ../Sources/Funtion/ModbusLib/MbQueue.c
+Finished building: ../Sources/Funtion/Measurement/CurrSample.c
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+../Sources/Funtion/Measurement/HigAFESamp.c: In function 'HigInfoSampleTask':
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:374:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+Executing target #171 ../Sources/Funtion/ModbusLib/MbInterface.c
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:441:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /*分流器采样值读取*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:461:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+Executing target #172 ../Sources/Funtion/ModbusLib/MbQueue.c
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:471:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /*电池总电压采样值读取*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:537:70: note: in expansion of macro 'NULL'
+      error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                      ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+Invoking: Standard S32DS C Compiler
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:548:71: note: in expansion of macro 'NULL'
+       error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                       ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:557:71: note: in expansion of macro 'NULL'
+       error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                       ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbInterface.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbInterface.d" -MT"Sources/Funtion/ModbusLib/MbInterface.o" -o "Sources/Funtion/ModbusLib/MbInterface.o" "../Sources/Funtion/ModbusLib/MbInterface.c"
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ 
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:578:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+Invoking: Standard S32DS C Compiler
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:704:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbQueue.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbQueue.d" -MT"Sources/Funtion/ModbusLib/MbQueue.o" -o "Sources/Funtion/ModbusLib/MbQueue.o" "../Sources/Funtion/ModbusLib/MbQueue.c"
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:713:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+Building file: ../Sources/Funtion/ModbusLib/MbServer.c
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:744:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:753:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:841:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:853:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1007:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1016:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1027:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+Finished building: ../Sources/Funtion/Measurement/LowADCSamp.c
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1036:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1047:69: note: in expansion of macro 'NULL'
+     error |= LTC2949_RdFastData(NULL, NULL, LTC2949_68XX_CMD_RDCVA, NULL);
+                                                                     ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:17:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Util/BSPTypeDef.h:65:14: warning: passing argument 4 of 'LTC2949_RdFastData' makes integer from pointer without a cast [-Wint-conversion]
+Executing target #173 ../Sources/Funtion/ModbusLib/MbServer.c
+ #define NULL ((void *)0)
+              ^
+../Sources/Funtion/Measurement/HigAFESamp.c:1056:68: note: in expansion of macro 'NULL'
+     LTC2949_RdFastData(fastData2949, NULL, LTC2949_68XX_CMD_RDCVA, NULL); /* poll LTC2949 for conversion done*/
+                                                                    ^~~~
+In file included from ../Sources/Funtion/Measurement/HigAFESamp.c:25:0:
+D:/test/205080013_BMU_V101.09/S32DS_101.11/liquidcooledallinonebmu/Sources/BSPSys/Device/LTC2949_driver/LTC2949.h:3424:4: note: expected 'u8 {aka unsigned char}' but argument is of type 'void *'
+ u8 LTC2949_RdFastData(s16* data, u16* cellMonDat, u16 rdcv, u8 pollTimeout16Us);
+    ^~~~~~~~~~~~~~~~~~
+Building file: ../Sources/Funtion/ModbusLib/MbTriSend.c
+ 
+Finished building: ../Sources/Funtion/Measurement/InsuCheck.c
+Executing target #174 ../Sources/Funtion/ModbusLib/MbTriSend.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/Funtion/ModbusLib/MbClient.c
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbServer.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbServer.d" -MT"Sources/Funtion/ModbusLib/MbServer.o" -o "Sources/Funtion/ModbusLib/MbServer.o" "../Sources/Funtion/ModbusLib/MbServer.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbTriSend.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbTriSend.d" -MT"Sources/Funtion/ModbusLib/MbTriSend.o" -o "Sources/Funtion/ModbusLib/MbTriSend.o" "../Sources/Funtion/ModbusLib/MbTriSend.c"
+ 
+Finished building: ../Sources/Funtion/Measurement/HigAFESamp.c
+Finished building: ../Sources/Funtion/Measurement/PortCheck.c
+ 
+ 
+ 
+Finished building: ../Sources/Funtion/ModbusLib/MbInterface.c
+Finished building: ../Sources/Funtion/ModbusLib/MbHandle.c
+Building file: ../Sources/Funtion/ModbusLib/MbUserDef.c
+ 
+Finished building: ../Sources/Funtion/ModbusLib/MbQueue.c
+Executing target #175 ../Sources/Funtion/ModbusLib/MbUserDef.c
+ 
+ 
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/ModbusLib/ModbusUser.c
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/MbUserDef.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/MbUserDef.d" -MT"Sources/Funtion/ModbusLib/MbUserDef.o" -o "Sources/Funtion/ModbusLib/MbUserDef.o" "../Sources/Funtion/ModbusLib/MbUserDef.c"
+Building file: ../Sources/Funtion/Parameter/GroupPara.c
+Executing target #176 ../Sources/Funtion/ModbusLib/ModbusUser.c
+Executing target #177 ../Sources/Funtion/Parameter/GroupPara.c
+Finished building: ../Sources/Funtion/ModbusLib/MbServer.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/ModbusLib/ModbusUser.args" -MMD -MP -MF"Sources/Funtion/ModbusLib/ModbusUser.d" -MT"Sources/Funtion/ModbusLib/ModbusUser.o" -o "Sources/Funtion/ModbusLib/ModbusUser.o" "../Sources/Funtion/ModbusLib/ModbusUser.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/GroupPara.args" -MMD -MP -MF"Sources/Funtion/Parameter/GroupPara.d" -MT"Sources/Funtion/Parameter/GroupPara.o" -o "Sources/Funtion/Parameter/GroupPara.o" "../Sources/Funtion/Parameter/GroupPara.c"
+ 
+Finished building: ../Sources/Funtion/ModbusLib/MbTriSend.c
+Building file: ../Sources/Funtion/Parameter/ParaCopy.c
+Building file: ../Sources/Funtion/Parameter/ParaDnload.c
+ 
+Executing target #178 ../Sources/Funtion/Parameter/ParaCopy.c
+Executing target #179 ../Sources/Funtion/Parameter/ParaDnload.c
+Building file: ../Sources/Funtion/Parameter/ParaExtEep.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaCopy.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaCopy.d" -MT"Sources/Funtion/Parameter/ParaCopy.o" -o "Sources/Funtion/Parameter/ParaCopy.o" "../Sources/Funtion/Parameter/ParaCopy.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaDnload.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaDnload.d" -MT"Sources/Funtion/Parameter/ParaDnload.o" -o "Sources/Funtion/Parameter/ParaDnload.o" "../Sources/Funtion/Parameter/ParaDnload.c"
+Executing target #180 ../Sources/Funtion/Parameter/ParaExtEep.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/Parameter/ParaIntEep.c
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaExtEep.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaExtEep.d" -MT"Sources/Funtion/Parameter/ParaExtEep.o" -o "Sources/Funtion/Parameter/ParaExtEep.o" "../Sources/Funtion/Parameter/ParaExtEep.c"
+Building file: ../Sources/Funtion/Parameter/ParaIntFlash.c
+Finished building: ../Sources/Funtion/ModbusLib/MbUserDef.c
+Executing target #182 ../Sources/Funtion/Parameter/ParaIntFlash.c
+ 
+Executing target #181 ../Sources/Funtion/Parameter/ParaIntEep.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaIntFlash.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaIntFlash.d" -MT"Sources/Funtion/Parameter/ParaIntFlash.o" -o "Sources/Funtion/Parameter/ParaIntFlash.o" "../Sources/Funtion/Parameter/ParaIntFlash.c"
+Building file: ../Sources/Funtion/Parameter/ParaInterface.c
+Finished building: ../Sources/Funtion/ModbusLib/ModbusUser.c
+Executing target #183 ../Sources/Funtion/Parameter/ParaInterface.c
+Finished building: ../Sources/Funtion/Parameter/GroupPara.c
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaIntEep.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaIntEep.d" -MT"Sources/Funtion/Parameter/ParaIntEep.o" -o "Sources/Funtion/Parameter/ParaIntEep.o" "../Sources/Funtion/Parameter/ParaIntEep.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaInterface.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaInterface.d" -MT"Sources/Funtion/Parameter/ParaInterface.o" -o "Sources/Funtion/Parameter/ParaInterface.o" "../Sources/Funtion/Parameter/ParaInterface.c"
+ 
+Building file: ../Sources/Funtion/Parameter/ParaRead.c
+Building file: ../Sources/Funtion/Parameter/ParaUser.c
+Executing target #184 ../Sources/Funtion/Parameter/ParaRead.c
+Finished building: ../Sources/Funtion/Parameter/ParaCopy.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/Funtion/Parameter/ParaDnload.c
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaRead.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaRead.d" -MT"Sources/Funtion/Parameter/ParaRead.o" -o "Sources/Funtion/Parameter/ParaRead.o" "../Sources/Funtion/Parameter/ParaRead.c"
+ 
+Executing target #185 ../Sources/Funtion/Parameter/ParaUser.c
+Building file: ../Sources/Funtion/Parameter/ParaWrite.c
+Building file: ../Sources/Funtion/Parameter/PublicPara.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaUser.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaUser.d" -MT"Sources/Funtion/Parameter/ParaUser.o" -o "Sources/Funtion/Parameter/ParaUser.o" "../Sources/Funtion/Parameter/ParaUser.c"
+Finished building: ../Sources/Funtion/Parameter/ParaExtEep.c
+Executing target #187 ../Sources/Funtion/Parameter/PublicPara.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/PublicPara.args" -MMD -MP -MF"Sources/Funtion/Parameter/PublicPara.d" -MT"Sources/Funtion/Parameter/PublicPara.o" -o "Sources/Funtion/Parameter/PublicPara.o" "../Sources/Funtion/Parameter/PublicPara.c"
+Finished building: ../Sources/Funtion/Parameter/ParaIntFlash.c
+Executing target #186 ../Sources/Funtion/Parameter/ParaWrite.c
+ 
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/PowerManag/Fs6503_PowerManag.c
+arm-none-eabi-gcc "@Sources/Funtion/Parameter/ParaWrite.args" -MMD -MP -MF"Sources/Funtion/Parameter/ParaWrite.d" -MT"Sources/Funtion/Parameter/ParaWrite.o" -o "Sources/Funtion/Parameter/ParaWrite.o" "../Sources/Funtion/Parameter/ParaWrite.c"
+Building file: ../Sources/Funtion/Recording/RecordHandle.c
+Executing target #188 ../Sources/Funtion/PowerManag/Fs6503_PowerManag.c
+Executing target #190 ../Sources/Funtion/Recording/RecordHandle.c
+Finished building: ../Sources/Funtion/Parameter/ParaInterface.c
+Finished building: ../Sources/Funtion/Parameter/ParaIntEep.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Recording/RecordHandle.args" -MMD -MP -MF"Sources/Funtion/Recording/RecordHandle.d" -MT"Sources/Funtion/Recording/RecordHandle.o" -o "Sources/Funtion/Recording/RecordHandle.o" "../Sources/Funtion/Recording/RecordHandle.c"
+ 
+ 
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Funtion/Recording/RecordInterface.c
+arm-none-eabi-gcc "@Sources/Funtion/PowerManag/Fs6503_PowerManag.args" -MMD -MP -MF"Sources/Funtion/PowerManag/Fs6503_PowerManag.d" -MT"Sources/Funtion/PowerManag/Fs6503_PowerManag.o" -o "Sources/Funtion/PowerManag/Fs6503_PowerManag.o" "../Sources/Funtion/PowerManag/Fs6503_PowerManag.c"
+Building file: ../Sources/Funtion/Recording/RecordUser.c
+Finished building: ../Sources/Funtion/Parameter/ParaRead.c
+Executing target #192 ../Sources/Funtion/Recording/RecordUser.c
+ 
+Finished building: ../Sources/Funtion/Parameter/PublicPara.c
+Finished building: ../Sources/Funtion/Parameter/ParaUser.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Recording/RecordUser.args" -MMD -MP -MF"Sources/Funtion/Recording/RecordUser.d" -MT"Sources/Funtion/Recording/RecordUser.o" -o "Sources/Funtion/Recording/RecordUser.o" "../Sources/Funtion/Recording/RecordUser.c"
+ 
+ 
+Executing target #191 ../Sources/Funtion/Recording/RecordInterface.c
+Building file: ../Sources/Funtion/Recording/RecordWave.c
+Building file: ../Sources/Funtion/SocLib/CapEnerCorr.c
+Invoking: Standard S32DS C Compiler
+Executing target #193 ../Sources/Funtion/Recording/RecordWave.c
+Finished building: ../Sources/Funtion/Parameter/ParaWrite.c
+Executing target #194 ../Sources/Funtion/SocLib/CapEnerCorr.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Recording/RecordWave.args" -MMD -MP -MF"Sources/Funtion/Recording/RecordWave.d" -MT"Sources/Funtion/Recording/RecordWave.o" -o "Sources/Funtion/Recording/RecordWave.o" "../Sources/Funtion/Recording/RecordWave.c"
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Recording/RecordInterface.args" -MMD -MP -MF"Sources/Funtion/Recording/RecordInterface.d" -MT"Sources/Funtion/Recording/RecordInterface.o" -o "Sources/Funtion/Recording/RecordInterface.o" "../Sources/Funtion/Recording/RecordInterface.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SocLib/CapEnerCorr.args" -MMD -MP -MF"Sources/Funtion/SocLib/CapEnerCorr.d" -MT"Sources/Funtion/SocLib/CapEnerCorr.o" -o "Sources/Funtion/SocLib/CapEnerCorr.o" "../Sources/Funtion/SocLib/CapEnerCorr.c"
+Building file: ../Sources/Funtion/SocLib/SocInterface.c
+Building file: ../Sources/Funtion/SocLib/SocSoeCorr.c
+Building file: ../Sources/Funtion/SocLib/SocSoeSync.c
+Executing target #195 ../Sources/Funtion/SocLib/SocInterface.c
+Executing target #196 ../Sources/Funtion/SocLib/SocSoeCorr.c
+Executing target #197 ../Sources/Funtion/SocLib/SocSoeSync.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SocLib/SocSoeSync.args" -MMD -MP -MF"Sources/Funtion/SocLib/SocSoeSync.d" -MT"Sources/Funtion/SocLib/SocSoeSync.o" -o "Sources/Funtion/SocLib/SocSoeSync.o" "../Sources/Funtion/SocLib/SocSoeSync.c"
+Finished building: ../Sources/Funtion/Recording/RecordHandle.c
+Finished building: ../Sources/Funtion/Recording/RecordUser.c
+arm-none-eabi-gcc "@Sources/Funtion/SocLib/SocInterface.args" -MMD -MP -MF"Sources/Funtion/SocLib/SocInterface.d" -MT"Sources/Funtion/SocLib/SocInterface.o" -o "Sources/Funtion/SocLib/SocInterface.o" "../Sources/Funtion/SocLib/SocInterface.c"
+ 
+ 
+arm-none-eabi-gcc "@Sources/Funtion/SocLib/SocSoeCorr.args" -MMD -MP -MF"Sources/Funtion/SocLib/SocSoeCorr.d" -MT"Sources/Funtion/SocLib/SocSoeCorr.o" -o "Sources/Funtion/SocLib/SocSoeCorr.o" "../Sources/Funtion/SocLib/SocSoeCorr.c"
+Building file: ../Sources/Funtion/SocLib/SocUserAPI.c
+Finished building: ../Sources/Funtion/SocLib/CapEnerCorr.c
+Building file: ../Sources/Funtion/Statistics/DodRcdStatis.c
+Executing target #198 ../Sources/Funtion/SocLib/SocUserAPI.c
+Finished building: ../Sources/Funtion/Recording/RecordWave.c
+Executing target #199 ../Sources/Funtion/Statistics/DodRcdStatis.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SocLib/SocUserAPI.args" -MMD -MP -MF"Sources/Funtion/SocLib/SocUserAPI.d" -MT"Sources/Funtion/SocLib/SocUserAPI.o" -o "Sources/Funtion/SocLib/SocUserAPI.o" "../Sources/Funtion/SocLib/SocUserAPI.c"
+Finished building: ../Sources/Funtion/PowerManag/Fs6503_PowerManag.c
+arm-none-eabi-gcc "@Sources/Funtion/Statistics/DodRcdStatis.args" -MMD -MP -MF"Sources/Funtion/Statistics/DodRcdStatis.d" -MT"Sources/Funtion/Statistics/DodRcdStatis.o" -o "Sources/Funtion/Statistics/DodRcdStatis.o" "../Sources/Funtion/Statistics/DodRcdStatis.c"
+ 
+Finished building: ../Sources/Funtion/Recording/RecordInterface.c
+ 
+ 
+Finished building: ../Sources/Funtion/SocLib/SocSoeSync.c
+ 
+Finished building: ../Sources/Funtion/SocLib/SocSoeCorr.c
+ 
+Building file: ../Sources/Funtion/Statistics/EnergyStatis.c
+ 
+Building file: ../Sources/Funtion/Statistics/StaInterface.c
+Executing target #200 ../Sources/Funtion/Statistics/EnergyStatis.c
+Building file: ../Sources/Funtion/Statistics/TimesStatis.c
+Executing target #201 ../Sources/Funtion/Statistics/StaInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Statistics/EnergyStatis.args" -MMD -MP -MF"Sources/Funtion/Statistics/EnergyStatis.d" -MT"Sources/Funtion/Statistics/EnergyStatis.o" -o "Sources/Funtion/Statistics/EnergyStatis.o" "../Sources/Funtion/Statistics/EnergyStatis.c"
+Finished building: ../Sources/Funtion/SocLib/SocUserAPI.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/Statistics/StaInterface.args" -MMD -MP -MF"Sources/Funtion/Statistics/StaInterface.d" -MT"Sources/Funtion/Statistics/StaInterface.o" -o "Sources/Funtion/Statistics/StaInterface.o" "../Sources/Funtion/Statistics/StaInterface.c"
+ 
+Finished building: ../Sources/Funtion/SocLib/SocInterface.c
+Executing target #203 ../Sources/Funtion/Statistics/TimesStatis.c
+Finished building: ../Sources/Funtion/Statistics/DodRcdStatis.c
+ 
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/Funtion/Statistics/TimesStatis.args" -MMD -MP -MF"Sources/Funtion/Statistics/TimesStatis.d" -MT"Sources/Funtion/Statistics/TimesStatis.o" -o "Sources/Funtion/Statistics/TimesStatis.o" "../Sources/Funtion/Statistics/TimesStatis.c"
+Building file: ../Sources/Funtion/SystemInfo/GroupInfo.c
+Building file: ../Sources/Funtion/SystemInfo/PileInfo.c
+Executing target #204 ../Sources/Funtion/SystemInfo/GroupInfo.c
+Building file: ../Sources/Funtion/SystemInfo/PublicInfo.c
+Executing target #205 ../Sources/Funtion/SystemInfo/PileInfo.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SystemInfo/GroupInfo.args" -MMD -MP -MF"Sources/Funtion/SystemInfo/GroupInfo.d" -MT"Sources/Funtion/SystemInfo/GroupInfo.o" -o "Sources/Funtion/SystemInfo/GroupInfo.o" "../Sources/Funtion/SystemInfo/GroupInfo.c"
+Executing target #206 ../Sources/Funtion/SystemInfo/PublicInfo.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SystemInfo/PileInfo.args" -MMD -MP -MF"Sources/Funtion/SystemInfo/PileInfo.d" -MT"Sources/Funtion/SystemInfo/PileInfo.o" -o "Sources/Funtion/SystemInfo/PileInfo.o" "../Sources/Funtion/SystemInfo/PileInfo.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Funtion/SystemInfo/PublicInfo.args" -MMD -MP -MF"Sources/Funtion/SystemInfo/PublicInfo.d" -MT"Sources/Funtion/SystemInfo/PublicInfo.o" -o "Sources/Funtion/SystemInfo/PublicInfo.o" "../Sources/Funtion/SystemInfo/PublicInfo.c"
+Finished building: ../Sources/Funtion/Statistics/EnergyStatis.c
+ 
+Building file: ../Sources/Logics/Balance/BalanTactic.c
+Building file: ../Sources/Logics/CanUser/AuxDevMsg.c
+Executing target #207 ../Sources/Logics/Balance/BalanTactic.c
+Building file: ../Sources/Logics/CanUser/GTBmmMsg.c
+Executing target #208 ../Sources/Logics/CanUser/AuxDevMsg.c
+Finished building: ../Sources/Funtion/Statistics/StaInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/CanUser/AuxDevMsg.args" -MMD -MP -MF"Sources/Logics/CanUser/AuxDevMsg.d" -MT"Sources/Logics/CanUser/AuxDevMsg.o" -o "Sources/Logics/CanUser/AuxDevMsg.o" "../Sources/Logics/CanUser/AuxDevMsg.c"
+ 
+Finished building: ../Sources/Funtion/Statistics/TimesStatis.c
+Executing target #209 ../Sources/Logics/CanUser/GTBmmMsg.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Balance/BalanTactic.args" -MMD -MP -MF"Sources/Logics/Balance/BalanTactic.d" -MT"Sources/Logics/Balance/BalanTactic.o" -o "Sources/Logics/Balance/BalanTactic.o" "../Sources/Logics/Balance/BalanTactic.c"
+Finished building: ../Sources/Funtion/SystemInfo/PileInfo.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/CanUser/GTBmmMsg.args" -MMD -MP -MF"Sources/Logics/CanUser/GTBmmMsg.d" -MT"Sources/Logics/CanUser/GTBmmMsg.o" -o "Sources/Logics/CanUser/GTBmmMsg.o" "../Sources/Logics/CanUser/GTBmmMsg.c"
+ 
+Building file: ../Sources/Logics/CanUser/GroupMsg.c
+Finished building: ../Sources/Funtion/SystemInfo/GroupInfo.c
+Building file: ../Sources/Logics/CanUser/SlaveMsg.c
+Executing target #210 ../Sources/Logics/CanUser/GroupMsg.c
+ 
+Executing target #211 ../Sources/Logics/CanUser/SlaveMsg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/CanUser/GroupMsg.args" -MMD -MP -MF"Sources/Logics/CanUser/GroupMsg.d" -MT"Sources/Logics/CanUser/GroupMsg.o" -o "Sources/Logics/CanUser/GroupMsg.o" "../Sources/Logics/CanUser/GroupMsg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/CanUser/SlaveMsg.args" -MMD -MP -MF"Sources/Logics/CanUser/SlaveMsg.d" -MT"Sources/Logics/CanUser/SlaveMsg.o" -o "Sources/Logics/CanUser/SlaveMsg.o" "../Sources/Logics/CanUser/SlaveMsg.c"
+Finished building: ../Sources/Funtion/SystemInfo/PublicInfo.c
+ 
+Building file: ../Sources/Logics/EventUser/EventUser.c
+Building file: ../Sources/Logics/EventUser/RcdDisplayUser.c
+Executing target #212 ../Sources/Logics/EventUser/EventUser.c
+Finished building: ../Sources/Logics/Balance/BalanTactic.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/EventUser/EventUser.args" -MMD -MP -MF"Sources/Logics/EventUser/EventUser.d" -MT"Sources/Logics/EventUser/EventUser.o" -o "Sources/Logics/EventUser/EventUser.o" "../Sources/Logics/EventUser/EventUser.c"
+Executing target #213 ../Sources/Logics/EventUser/RcdDisplayUser.c
+ 
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/Logics/CanUser/AuxDevMsg.c
+arm-none-eabi-gcc "@Sources/Logics/EventUser/RcdDisplayUser.args" -MMD -MP -MF"Sources/Logics/EventUser/RcdDisplayUser.d" -MT"Sources/Logics/EventUser/RcdDisplayUser.o" -o "Sources/Logics/EventUser/RcdDisplayUser.o" "../Sources/Logics/EventUser/RcdDisplayUser.c"
+Building file: ../Sources/Logics/FstChg/ChgTactics.c
+Executing target #214 ../Sources/Logics/FstChg/ChgTactics.c
+Finished building: ../Sources/Logics/CanUser/GTBmmMsg.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/FstChg/ChgTactics.args" -MMD -MP -MF"Sources/Logics/FstChg/ChgTactics.d" -MT"Sources/Logics/FstChg/ChgTactics.o" -o "Sources/Logics/FstChg/ChgTactics.o" "../Sources/Logics/FstChg/ChgTactics.c"
+ 
+Building file: ../Sources/Logics/SciUser/HeatModbusMap.c
+Building file: ../Sources/Logics/SciUser/ModbusMap.c
+Executing target #215 ../Sources/Logics/SciUser/HeatModbusMap.c
+Building file: ../Sources/Logics/SciUser/SciCtrlHandle.c
+Executing target #216 ../Sources/Logics/SciUser/ModbusMap.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/SciUser/HeatModbusMap.args" -MMD -MP -MF"Sources/Logics/SciUser/HeatModbusMap.d" -MT"Sources/Logics/SciUser/HeatModbusMap.o" -o "Sources/Logics/SciUser/HeatModbusMap.o" "../Sources/Logics/SciUser/HeatModbusMap.c"
+Executing target #217 ../Sources/Logics/SciUser/SciCtrlHandle.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/SciUser/ModbusMap.args" -MMD -MP -MF"Sources/Logics/SciUser/ModbusMap.d" -MT"Sources/Logics/SciUser/ModbusMap.o" -o "Sources/Logics/SciUser/ModbusMap.o" "../Sources/Logics/SciUser/ModbusMap.c"
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/Logics/SciUser/SciInfoPoint.c
+arm-none-eabi-gcc "@Sources/Logics/SciUser/SciCtrlHandle.args" -MMD -MP -MF"Sources/Logics/SciUser/SciCtrlHandle.d" -MT"Sources/Logics/SciUser/SciCtrlHandle.o" -o "Sources/Logics/SciUser/SciCtrlHandle.o" "../Sources/Logics/SciUser/SciCtrlHandle.c"
+Executing target #218 ../Sources/Logics/SciUser/SciInfoPoint.c
+Finished building: ../Sources/Logics/CanUser/GroupMsg.c
+Invoking: Standard S32DS C Compiler
+ 
+Finished building: ../Sources/Logics/CanUser/SlaveMsg.c
+Finished building: ../Sources/Logics/EventUser/RcdDisplayUser.c
+ 
+Finished building: ../Sources/Logics/EventUser/EventUser.c
+ 
+arm-none-eabi-gcc "@Sources/Logics/SciUser/SciInfoPoint.args" -MMD -MP -MF"Sources/Logics/SciUser/SciInfoPoint.d" -MT"Sources/Logics/SciUser/SciInfoPoint.o" -o "Sources/Logics/SciUser/SciInfoPoint.o" "../Sources/Logics/SciUser/SciInfoPoint.c"
+ 
+Finished building: ../Sources/Logics/FstChg/ChgTactics.c
+Building file: ../Sources/Logics/SciUser/SciParaHandle.c
+Building file: ../Sources/Logics/SciUser/SciRcdRead.c
+ 
+Executing target #219 ../Sources/Logics/SciUser/SciParaHandle.c
+Executing target #220 ../Sources/Logics/SciUser/SciRcdRead.c
+Building file: ../Sources/Logics/Tactics/AuxDevTactic.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/SciUser/SciRcdRead.args" -MMD -MP -MF"Sources/Logics/SciUser/SciRcdRead.d" -MT"Sources/Logics/SciUser/SciRcdRead.o" -o "Sources/Logics/SciUser/SciRcdRead.o" "../Sources/Logics/SciUser/SciRcdRead.c"
+Executing target #221 ../Sources/Logics/Tactics/AuxDevTactic.c
+Finished building: ../Sources/Logics/SciUser/HeatModbusMap.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/SciUser/SciParaHandle.args" -MMD -MP -MF"Sources/Logics/SciUser/SciParaHandle.d" -MT"Sources/Logics/SciUser/SciParaHandle.o" -o "Sources/Logics/SciUser/SciParaHandle.o" "../Sources/Logics/SciUser/SciParaHandle.c"
+arm-none-eabi-gcc "@Sources/Logics/Tactics/AuxDevTactic.args" -MMD -MP -MF"Sources/Logics/Tactics/AuxDevTactic.d" -MT"Sources/Logics/Tactics/AuxDevTactic.o" -o "Sources/Logics/Tactics/AuxDevTactic.o" "../Sources/Logics/Tactics/AuxDevTactic.c"
+ 
+Finished building: ../Sources/Logics/SciUser/SciCtrlHandle.c
+Finished building: ../Sources/Logics/SciUser/ModbusMap.c
+Building file: ../Sources/Logics/Tactics/GroupDebug.c
+ 
+ 
+Executing target #222 ../Sources/Logics/Tactics/GroupDebug.c
+Building file: ../Sources/Logics/Tactics/GroupMode.c
+Building file: ../Sources/Logics/Tactics/GroupProtect.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/GroupDebug.args" -MMD -MP -MF"Sources/Logics/Tactics/GroupDebug.d" -MT"Sources/Logics/Tactics/GroupDebug.o" -o "Sources/Logics/Tactics/GroupDebug.o" "../Sources/Logics/Tactics/GroupDebug.c"
+Finished building: ../Sources/Logics/SciUser/SciInfoPoint.c
+Executing target #224 ../Sources/Logics/Tactics/GroupProtect.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/GroupProtect.args" -MMD -MP -MF"Sources/Logics/Tactics/GroupProtect.d" -MT"Sources/Logics/Tactics/GroupProtect.o" -o "Sources/Logics/Tactics/GroupProtect.o" "../Sources/Logics/Tactics/GroupProtect.c"
+Executing target #223 ../Sources/Logics/Tactics/GroupMode.c
+Building file: ../Sources/Logics/Tactics/GroupState.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/GroupMode.args" -MMD -MP -MF"Sources/Logics/Tactics/GroupMode.d" -MT"Sources/Logics/Tactics/GroupMode.o" -o "Sources/Logics/Tactics/GroupMode.o" "../Sources/Logics/Tactics/GroupMode.c"
+Building file: ../Sources/Logics/Tactics/GroupTactic.c
+Executing target #225 ../Sources/Logics/Tactics/GroupState.c
+Executing target #226 ../Sources/Logics/Tactics/GroupTactic.c
+Finished building: ../Sources/Logics/SciUser/SciRcdRead.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/GroupState.args" -MMD -MP -MF"Sources/Logics/Tactics/GroupState.d" -MT"Sources/Logics/Tactics/GroupState.o" -o "Sources/Logics/Tactics/GroupState.o" "../Sources/Logics/Tactics/GroupState.c"
+Finished building: ../Sources/Logics/SciUser/SciParaHandle.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/GroupTactic.args" -MMD -MP -MF"Sources/Logics/Tactics/GroupTactic.d" -MT"Sources/Logics/Tactics/GroupTactic.o" -o "Sources/Logics/Tactics/GroupTactic.o" "../Sources/Logics/Tactics/GroupTactic.c"
+ 
+ 
+Building file: ../Sources/Logics/Tactics/TacInterface.c
+Building file: ../Sources/Logics/Tactics/TacUser.c
+Building file: ../Sources/OSUser/OSUserHOOK.c
+Executing target #227 ../Sources/Logics/Tactics/TacInterface.c
+Executing target #228 ../Sources/Logics/Tactics/TacUser.c
+Executing target #229 ../Sources/OSUser/OSUserHOOK.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Logics/Tactics/TacInterface.args" -MMD -MP -MF"Sources/Logics/Tactics/TacInterface.d" -MT"Sources/Logics/Tactics/TacInterface.o" -o "Sources/Logics/Tactics/TacInterface.o" "../Sources/Logics/Tactics/TacInterface.c"
+arm-none-eabi-gcc "@Sources/Logics/Tactics/TacUser.args" -MMD -MP -MF"Sources/Logics/Tactics/TacUser.d" -MT"Sources/Logics/Tactics/TacUser.o" -o "Sources/Logics/Tactics/TacUser.o" "../Sources/Logics/Tactics/TacUser.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/OSUser/OSUserHOOK.args" -MMD -MP -MF"Sources/OSUser/OSUserHOOK.d" -MT"Sources/OSUser/OSUserHOOK.o" -o "Sources/OSUser/OSUserHOOK.o" "../Sources/OSUser/OSUserHOOK.c"
+Finished building: ../Sources/Logics/Tactics/GroupProtect.c
+Finished building: ../Sources/Logics/Tactics/GroupDebug.c
+ 
+../Sources/Logics/Tactics/GroupTactic.c:50:11: warning: 'gGSysCmdCtrl_QF3StopState' initialized and declared 'extern'
+ extern u8 gGSysCmdCtrl_QF3StopState = 0;              /*液冷备电QF3停机标志*/
+           ^~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+Building file: ../Sources/PileSys/PileCalc/PileCalcUtil.c
+Finished building: ../Sources/Logics/Tactics/AuxDevTactic.c
+Executing target #230 ../Sources/PileSys/PileCalc/PileCalcUtil.c
+Finished building: ../Sources/Logics/Tactics/GroupMode.c
+ 
+Finished building: ../Sources/Logics/Tactics/GroupState.c
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileCalc/PileCalcUtil.args" -MMD -MP -MF"Sources/PileSys/PileCalc/PileCalcUtil.d" -MT"Sources/PileSys/PileCalc/PileCalcUtil.o" -o "Sources/PileSys/PileCalc/PileCalcUtil.o" "../Sources/PileSys/PileCalc/PileCalcUtil.c"
+ 
+Finished building: ../Sources/Logics/Tactics/GroupTactic.c
+Building file: ../Sources/PileSys/PileCalc/PileDataCalc.c
+ 
+Building file: ../Sources/PileSys/PileCalc/PileLimCalc.c
+Executing target #231 ../Sources/PileSys/PileCalc/PileDataCalc.c
+Executing target #232 ../Sources/PileSys/PileCalc/PileLimCalc.c
+Building file: ../Sources/PileSys/PileCan/PileCatlMsg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileCalc/PileDataCalc.args" -MMD -MP -MF"Sources/PileSys/PileCalc/PileDataCalc.d" -MT"Sources/PileSys/PileCalc/PileDataCalc.o" -o "Sources/PileSys/PileCalc/PileDataCalc.o" "../Sources/PileSys/PileCalc/PileDataCalc.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileCalc/PileLimCalc.args" -MMD -MP -MF"Sources/PileSys/PileCalc/PileLimCalc.d" -MT"Sources/PileSys/PileCalc/PileLimCalc.o" -o "Sources/PileSys/PileCalc/PileLimCalc.o" "../Sources/PileSys/PileCalc/PileLimCalc.c"
+Executing target #233 ../Sources/PileSys/PileCan/PileCatlMsg.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/PileSys/PileCalc/PileCalcUtil.c
+arm-none-eabi-gcc "@Sources/PileSys/PileCan/PileCatlMsg.args" -MMD -MP -MF"Sources/PileSys/PileCan/PileCatlMsg.d" -MT"Sources/PileSys/PileCan/PileCatlMsg.o" -o "Sources/PileSys/PileCan/PileCatlMsg.o" "../Sources/PileSys/PileCan/PileCatlMsg.c"
+Building file: ../Sources/PileSys/PileCan/PileDnMsg.c
+ 
+Executing target #234 ../Sources/PileSys/PileCan/PileDnMsg.c
+Finished building: ../Sources/Logics/Tactics/TacUser.c
+Finished building: ../Sources/Logics/Tactics/TacInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileCan/PileDnMsg.args" -MMD -MP -MF"Sources/PileSys/PileCan/PileDnMsg.d" -MT"Sources/PileSys/PileCan/PileDnMsg.o" -o "Sources/PileSys/PileCan/PileDnMsg.o" "../Sources/PileSys/PileCan/PileDnMsg.c"
+ 
+ 
+Building file: ../Sources/PileSys/PileCan/PileUpMsg.c
+Finished building: ../Sources/PileSys/PileCalc/PileDataCalc.c
+Building file: ../Sources/PileSys/PileDiag/PileDiagCheck.c
+Executing target #235 ../Sources/PileSys/PileCan/PileUpMsg.c
+ 
+Executing target #236 ../Sources/PileSys/PileDiag/PileDiagCheck.c
+Finished building: ../Sources/OSUser/OSUserHOOK.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileCan/PileUpMsg.args" -MMD -MP -MF"Sources/PileSys/PileCan/PileUpMsg.d" -MT"Sources/PileSys/PileCan/PileUpMsg.o" -o "Sources/PileSys/PileCan/PileUpMsg.o" "../Sources/PileSys/PileCan/PileUpMsg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileDiag/PileDiagCheck.args" -MMD -MP -MF"Sources/PileSys/PileDiag/PileDiagCheck.d" -MT"Sources/PileSys/PileDiag/PileDiagCheck.o" -o "Sources/PileSys/PileDiag/PileDiagCheck.o" "../Sources/PileSys/PileDiag/PileDiagCheck.c"
+ 
+Finished building: ../Sources/PileSys/PileCalc/PileLimCalc.c
+Building file: ../Sources/PileSys/PileDiag/PileDiagMaker.c
+Building file: ../Sources/PileSys/PileDiag/PileDiagUser.c
+ 
+Executing target #237 ../Sources/PileSys/PileDiag/PileDiagMaker.c
+Executing target #238 ../Sources/PileSys/PileDiag/PileDiagUser.c
+Building file: ../Sources/PileSys/PilePara/PilePara.c
+Finished building: ../Sources/PileSys/PileCan/PileCatlMsg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileDiag/PileDiagMaker.args" -MMD -MP -MF"Sources/PileSys/PileDiag/PileDiagMaker.d" -MT"Sources/PileSys/PileDiag/PileDiagMaker.o" -o "Sources/PileSys/PileDiag/PileDiagMaker.o" "../Sources/PileSys/PileDiag/PileDiagMaker.c"
+Executing target #239 ../Sources/PileSys/PilePara/PilePara.c
+ 
+Finished building: ../Sources/PileSys/PileCan/PileDnMsg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PilePara/PilePara.args" -MMD -MP -MF"Sources/PileSys/PilePara/PilePara.d" -MT"Sources/PileSys/PilePara/PilePara.o" -o "Sources/PileSys/PilePara/PilePara.o" "../Sources/PileSys/PilePara/PilePara.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileDiag/PileDiagUser.args" -MMD -MP -MF"Sources/PileSys/PileDiag/PileDiagUser.d" -MT"Sources/PileSys/PileDiag/PileDiagUser.o" -o "Sources/PileSys/PileDiag/PileDiagUser.o" "../Sources/PileSys/PileDiag/PileDiagUser.c"
+ 
+Building file: ../Sources/PileSys/PilePara/PileParaRd.c
+Building file: ../Sources/PileSys/PilePara/PileParaWr.c
+Building file: ../Sources/PileSys/PileSci/PileSciCtrlHd.c
+Executing target #240 ../Sources/PileSys/PilePara/PileParaRd.c
+Executing target #242 ../Sources/PileSys/PileSci/PileSciCtrlHd.c
+Executing target #241 ../Sources/PileSys/PilePara/PileParaWr.c
+Finished building: ../Sources/PileSys/PileDiag/PileDiagCheck.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+ 
+Finished building: ../Sources/PileSys/PileDiag/PileDiagMaker.c
+Finished building: ../Sources/PileSys/PileCan/PileUpMsg.c
+Finished building: ../Sources/PileSys/PilePara/PilePara.c
+ 
+ 
+ 
+arm-none-eabi-gcc "@Sources/PileSys/PilePara/PileParaWr.args" -MMD -MP -MF"Sources/PileSys/PilePara/PileParaWr.d" -MT"Sources/PileSys/PilePara/PileParaWr.o" -o "Sources/PileSys/PilePara/PileParaWr.o" "../Sources/PileSys/PilePara/PileParaWr.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileSci/PileSciCtrlHd.args" -MMD -MP -MF"Sources/PileSys/PileSci/PileSciCtrlHd.d" -MT"Sources/PileSys/PileSci/PileSciCtrlHd.o" -o "Sources/PileSys/PileSci/PileSciCtrlHd.o" "../Sources/PileSys/PileSci/PileSciCtrlHd.c"
+arm-none-eabi-gcc "@Sources/PileSys/PilePara/PileParaRd.args" -MMD -MP -MF"Sources/PileSys/PilePara/PileParaRd.d" -MT"Sources/PileSys/PilePara/PileParaRd.o" -o "Sources/PileSys/PilePara/PileParaRd.o" "../Sources/PileSys/PilePara/PileParaRd.c"
+Finished building: ../Sources/PileSys/PileDiag/PileDiagUser.c
+ 
+Building file: ../Sources/PileSys/PileSci/PileSciInfoPt.c
+Building file: ../Sources/PileSys/PileSci/PileSciParaHd.c
+Building file: ../Sources/PileSys/PileStati/PileEnerStat.c
+Executing target #243 ../Sources/PileSys/PileSci/PileSciInfoPt.c
+Executing target #244 ../Sources/PileSys/PileSci/PileSciParaHd.c
+Executing target #245 ../Sources/PileSys/PileStati/PileEnerStat.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileSci/PileSciInfoPt.args" -MMD -MP -MF"Sources/PileSys/PileSci/PileSciInfoPt.d" -MT"Sources/PileSys/PileSci/PileSciInfoPt.o" -o "Sources/PileSys/PileSci/PileSciInfoPt.o" "../Sources/PileSys/PileSci/PileSciInfoPt.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileSci/PileSciParaHd.args" -MMD -MP -MF"Sources/PileSys/PileSci/PileSciParaHd.d" -MT"Sources/PileSys/PileSci/PileSciParaHd.o" -o "Sources/PileSys/PileSci/PileSciParaHd.o" "../Sources/PileSys/PileSci/PileSciParaHd.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileStati/PileEnerStat.args" -MMD -MP -MF"Sources/PileSys/PileStati/PileEnerStat.d" -MT"Sources/PileSys/PileStati/PileEnerStat.o" -o "Sources/PileSys/PileStati/PileEnerStat.o" "../Sources/PileSys/PileStati/PileEnerStat.c"
+Building file: ../Sources/PileSys/PileTact/PileAutoCtrl.c
+Building file: ../Sources/PileSys/PileTact/PileProtect.c
+Building file: ../Sources/PileSys/PileTact/PileStartUp.c
+Executing target #246 ../Sources/PileSys/PileTact/PileAutoCtrl.c
+Executing target #248 ../Sources/PileSys/PileTact/PileStartUp.c
+Executing target #247 ../Sources/PileSys/PileTact/PileProtect.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileAutoCtrl.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileAutoCtrl.d" -MT"Sources/PileSys/PileTact/PileAutoCtrl.o" -o "Sources/PileSys/PileTact/PileAutoCtrl.o" "../Sources/PileSys/PileTact/PileAutoCtrl.c"
+Invoking: Standard S32DS C Compiler
+Finished building: ../Sources/PileSys/PilePara/PileParaWr.c
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileStartUp.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileStartUp.d" -MT"Sources/PileSys/PileTact/PileStartUp.o" -o "Sources/PileSys/PileTact/PileStartUp.o" "../Sources/PileSys/PileTact/PileStartUp.c"
+Finished building: ../Sources/PileSys/PilePara/PileParaRd.c
+ 
+Finished building: ../Sources/PileSys/PileSci/PileSciCtrlHd.c
+Finished building: ../Sources/PileSys/PileStati/PileEnerStat.c
+ 
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileProtect.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileProtect.d" -MT"Sources/PileSys/PileTact/PileProtect.o" -o "Sources/PileSys/PileTact/PileProtect.o" "../Sources/PileSys/PileTact/PileProtect.c"
+ 
+ 
+Building file: ../Sources/PileSys/PileTact/PileSysDebug.c
+Finished building: ../Sources/PileSys/PileSci/PileSciInfoPt.c
+Finished building: ../Sources/PileSys/PileSci/PileSciParaHd.c
+Executing target #249 ../Sources/PileSys/PileTact/PileSysDebug.c
+ 
+ 
+Finished building: ../Sources/PileSys/PileTact/PileAutoCtrl.c
+Finished building: ../Sources/PileSys/PileTact/PileStartUp.c
+Invoking: Standard S32DS C Compiler
+ 
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileSysDebug.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileSysDebug.d" -MT"Sources/PileSys/PileTact/PileSysDebug.o" -o "Sources/PileSys/PileTact/PileSysDebug.o" "../Sources/PileSys/PileTact/PileSysDebug.c"
+ 
+Building file: ../Sources/PileSys/PileTact/PileSysMode.c
+Building file: ../Sources/PileSys/PileTact/PileSysState.c
+Building file: ../Sources/PileSys/PileTact/PileTactInterface.c
+Executing target #250 ../Sources/PileSys/PileTact/PileSysMode.c
+Executing target #251 ../Sources/PileSys/PileTact/PileSysState.c
+Executing target #252 ../Sources/PileSys/PileTact/PileTactInterface.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileSysMode.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileSysMode.d" -MT"Sources/PileSys/PileTact/PileSysMode.o" -o "Sources/PileSys/PileTact/PileSysMode.o" "../Sources/PileSys/PileTact/PileSysMode.c"
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileTactInterface.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileTactInterface.d" -MT"Sources/PileSys/PileTact/PileTactInterface.o" -o "Sources/PileSys/PileTact/PileTactInterface.o" "../Sources/PileSys/PileTact/PileTactInterface.c"
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileSysState.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileSysState.d" -MT"Sources/PileSys/PileTact/PileSysState.o" -o "Sources/PileSys/PileTact/PileSysState.o" "../Sources/PileSys/PileTact/PileSysState.c"
+Finished building: ../Sources/PileSys/PileTact/PileProtect.c
+ 
+Finished building: ../Sources/PileSys/PileTact/PileSysDebug.c
+Building file: ../Sources/PileSys/PileTact/PileTactUser.c
+Building file: ../Sources/PileSys/PileTact/PileTactics.c
+ 
+Executing target #253 ../Sources/PileSys/PileTact/PileTactUser.c
+Executing target #254 ../Sources/PileSys/PileTact/PileTactics.c
+Building file: ../Sources/PileSys/PileTact/PileWorkState.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileTactUser.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileTactUser.d" -MT"Sources/PileSys/PileTact/PileTactUser.o" -o "Sources/PileSys/PileTact/PileTactUser.o" "../Sources/PileSys/PileTact/PileTactUser.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileTactics.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileTactics.d" -MT"Sources/PileSys/PileTact/PileTactics.o" -o "Sources/PileSys/PileTact/PileTactics.o" "../Sources/PileSys/PileTact/PileTactics.c"
+Executing target #255 ../Sources/PileSys/PileTact/PileWorkState.c
+Finished building: ../Sources/PileSys/PileTact/PileSysState.c
+Invoking: Standard S32DS C Compiler
+Building file: ../Sources/PileSys/PileUser/PileGroupRcv.c
+ 
+arm-none-eabi-gcc "@Sources/PileSys/PileTact/PileWorkState.args" -MMD -MP -MF"Sources/PileSys/PileTact/PileWorkState.d" -MT"Sources/PileSys/PileTact/PileWorkState.o" -o "Sources/PileSys/PileTact/PileWorkState.o" "../Sources/PileSys/PileTact/PileWorkState.c"
+Executing target #256 ../Sources/PileSys/PileUser/PileGroupRcv.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileUser/PileGroupRcv.args" -MMD -MP -MF"Sources/PileSys/PileUser/PileGroupRcv.d" -MT"Sources/PileSys/PileUser/PileGroupRcv.o" -o "Sources/PileSys/PileUser/PileGroupRcv.o" "../Sources/PileSys/PileUser/PileGroupRcv.c"
+Finished building: ../Sources/PileSys/PileTact/PileSysMode.c
+Building file: ../Sources/PileSys/PileUser/PileUserAPI.c
+Finished building: ../Sources/PileSys/PileTact/PileTactInterface.c
+Executing target #257 ../Sources/PileSys/PileUser/PileUserAPI.c
+ 
+Finished building: ../Sources/PileSys/PileTact/PileTactics.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/PileSys/PileUser/PileUserAPI.args" -MMD -MP -MF"Sources/PileSys/PileUser/PileUserAPI.d" -MT"Sources/PileSys/PileUser/PileUserAPI.o" -o "Sources/PileSys/PileUser/PileUserAPI.o" "../Sources/PileSys/PileUser/PileUserAPI.c"
+ 
+ 
+Finished building: ../Sources/PileSys/PileTact/PileWorkState.c
+Building file: ../Sources/main.c
+ 
+Executing target #258 ../Sources/main.c
+Finished building: ../Sources/PileSys/PileTact/PileTactUser.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -o "Sources/main.o" "../Sources/main.c"
+ 
+Finished building: ../Sources/PileSys/PileUser/PileGroupRcv.c
+ 
+Finished building: ../Sources/PileSys/PileUser/PileUserAPI.c
+ 
+Finished building: ../Sources/main.c
+ 
+Building target: liquidcooledallinonebmu.elf
+Executing target #259 liquidcooledallinonebmu.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "liquidcooledallinonebmu.elf" "@liquidcooledallinonebmu.args"   
+Finished building target: liquidcooledallinonebmu.elf
+ 
+Executing target #260 liquidcooledallinonebmu.hex
+Executing target #261 liquidcooledallinonebmu.siz
+Invoking: Standard S32DS Create Flash Image
+arm-none-eabi-objcopy -O ihex  liquidcooledallinonebmu.elf   "liquidcooledallinonebmu.hex"
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley -x  liquidcooledallinonebmu.elf 
+   text	   data	    bss	    dec	    hex	filename
+0x76d30	  0xa00	 0xd6d0	 544256	  84e00	liquidcooledallinonebmu.elf
+Finished building: liquidcooledallinonebmu.siz
+ 
+Finished building: liquidcooledallinonebmu.hex
+ 
+
+14:12:46 Build Finished (took 23s.754ms)
+
